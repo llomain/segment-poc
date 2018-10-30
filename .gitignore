@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode
+pip-log.txt
+pip-delete-this-directory.txt
+env

@@ -1,0 +1,11 @@
+{
+    "app_token": "1234-5678-9012-3456",
+    "event_token": "abc123",
+    "s2s": "Organic",
+    "created_at": "0001-01-01T00:00:00Z",
+    "device_id": {
+        "Adid": "acf8534f2f052395e617a38730682ccc",
+        "idfa": "2017-07-29T17:29:21Z",
+        "otherDeviceID": "2017-07-29T17:29:38Z",
+        "otherDeviceID": "2017-07-29T17:29:58Z"}
+}
