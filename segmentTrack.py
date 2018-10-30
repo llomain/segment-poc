@@ -10,9 +10,12 @@ def id_generator(size=32, chars=string.ascii_uppercase + string.digits):
   return ''.join(random.choice(chars) for _ in range(size))
 
 def sendEvent():
-  analytics.track("test-"+id_generator(), 'adjust-test', events.adjustInstallAttr)
+  eventUserId = str("test-"+id_generator())
+  eventName = "adjust-test"
+  analytics.track(eventUserId, eventName, events.adjustInstallAttr)
+  print("sent " + eventName + " with UID " + eventUserId)
 
-def on_error(error, items):
-     print("An error occurred:", error)
+#def on_error(error, items):
+#     print("An error occurred:", error)
 
 #sendEvent()

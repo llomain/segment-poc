@@ -4,7 +4,7 @@ import time
 sleep = time.sleep
 
 def eventSender():
-    numberOfEvents = 3
+    numberOfEvents = 1
     i = 0
     while i < numberOfEvents: 
         segmentTrack.sendEvent()
